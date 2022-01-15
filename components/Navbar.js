@@ -22,9 +22,11 @@ export default function Navbar(){
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
                 <link href="/dist/output.css" rel="stylesheet"></link>
             </Head>
-            <ul className='list-none flex justify-around p-4 items-center bg-gray-light'>
+            <ul className='list-none flex justify-around p-4 items-center bg-blue-light'>
                 <Link href="/">
-                    <a  className="text-blue bg-gray-dark font-sans font-bold px-16 py-5 text-base rounded-lg mr-48">Home</a>
+                    <a  className=" text-[#fff] bg-blue-dark font-sans font-bold px-16 py-5 text-base rounded-lg mr-64">
+                        <p>Home</p>
+                    </a>
                 </Link>
                 {pages.map((page,index)=>{
                     return(
