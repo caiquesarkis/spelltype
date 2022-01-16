@@ -3,7 +3,7 @@ import Head from "next/head"
 export default function Navbar(){
     const pages = [
         {
-            text: "Deal",
+            text: "Play",
             link: "/Game"
         },
         {
