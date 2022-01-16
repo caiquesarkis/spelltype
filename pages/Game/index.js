@@ -3,13 +3,14 @@ import Phaser from 'phaser'
 import { IonPhaser } from '@ion-phaser/react'
 
 
+
 const game = {
   width: "100%",
   height: "100%",
   type: Phaser.AUTO,
   scene: {
     init: function() {
-      this.load.image("blue","./assets/blue-card.png")
+      this.load.image("blue","/assets/red-card.png")
     },
     create: function() {
     const image = this.add.image(400,400, "blue")
@@ -22,7 +23,6 @@ const game = {
 
 export default function App () {
   const gameRef = useRef(null)
-  // Call `setInitialize` when you want to initialize your game! :)
   const [initialize, setInitialize] = useState(false)
   const destroy = () => {
     if (gameRef.current) {
@@ -49,3 +49,4 @@ export default function App () {
 
   )
 }
+
