@@ -14,7 +14,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center">
         <Link href="/Game">
-            <a  className="px-48 py-6 mt-12 bg-pink rounded-lg shadow-xl">Play!</a>
+            <a  className="px-48 py-6 mt-32 mb-32 bg-pink rounded-lg shadow-xl">Play!</a>
         </Link>
       </div>
     </div>
